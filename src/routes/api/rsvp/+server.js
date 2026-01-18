@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
-import { CF_TURNSTILE_PRIVATE_KEY, PRIVATE_GOOGLE_SHEETS_URL } from '$env/static/private'
-import { PUBLIC_EMAIL } from '$env/static/public'
+import { env } from '$env/dynamic/private';
+import { env as publicEnv } from '$env/dynamic/public';
 
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
@@ -13,7 +13,7 @@ export async function POST({ request }) {
         return json({ error: 'Invalid CAPTCHA' }, { status: 400 });
     }
 
-    const SECRET_KEY = CF_TURNSTILE_PRIVATE_KEY;
+    const SECRET_KEY = env.CF_TURNSTILE_PRIVATE_KEY;
 
     const { success, error } = await validateToken(token, SECRET_KEY);
 
@@ -21,7 +21,7 @@ export async function POST({ request }) {
         return json({ error: error || 'Invalid CAPTCHA' }, { status: 400 });
     }
 
-    const response = await fetch(PRIVATE_GOOGLE_SHEETS_URL, {
+    const response = await fetch(env.PRIVATE_GOOGLE_SHEETS_URL, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ export async function POST({ request }) {
 
     const result = await response.json();
     if (result.result !== 'success') {
-        return json({ error: `Failed to submit please email: ${PUBLIC_EMAIL}` }, { status: 500 });
+        return json({ error: `Failed to submit please email: ${publicEnv.PUBLIC_EMAIL}` }, { status: 500 });
     }
 
     // Return success message

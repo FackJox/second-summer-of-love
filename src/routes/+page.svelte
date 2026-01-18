@@ -49,6 +49,12 @@
             showRsvp = false;
         }
     }
+
+    function handleModalKeydown(event) {
+        if (event.key === 'Escape') {
+            showRsvp = false;
+        }
+    }
 </script>
 
 <main>
@@ -75,7 +81,7 @@
 
     {#if rsvpLoaded}
     <div class="rsvp-preload" class:show={showRsvp}>
-        <div class="modal" transition:fade on:click|self={handleModalClick}>
+        <div class="modal" transition:fade on:click|self={handleModalClick} on:keydown={handleModalKeydown} role="button" tabindex="0">
             <Rsvp on:success={handleFormSuccess} />
         </div>
     </div>
