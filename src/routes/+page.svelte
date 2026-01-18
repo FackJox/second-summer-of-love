@@ -53,47 +53,25 @@
 
 <main>
     {#if !isLoaded}
-    <div class="loader" transition:fade={{ duration: 800 }}>
+    <div class="loader" transition:fade={{ duration: 400 }}>
         <!-- CRT scanlines overlay -->
         <div class="loader-scanlines"></div>
 
-        <!-- Animated gradient orbs in background -->
-        <div class="loader-orbs">
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-            <div class="orb orb-3"></div>
-        </div>
-
-        <!-- Disco ball container with glow -->
-        <div class="disco-loader">
-            <div class="disco-glow"></div>
-            <div class="disco-ball-wrapper">
-                <img src="/assets/disco-ball.svg" alt="Loading..." class="disco-ball" />
-            </div>
-            <!-- Light rays emanating from disco ball -->
-            <div class="light-rays">
-                {#each Array(8) as _, i}
-                    <div class="ray" style="--ray-index: {i}"></div>
-                {/each}
-            </div>
-        </div>
-
-        <!-- Loading text with glitch effect -->
-        <div class="loader-text">
-            <span class="loader-title" data-text="WARMING UP">WARMING UP</span>
-            <div class="loader-dots">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
+        <!-- Film grain overlay -->
+        <div class="film-grain"></div>
 
         <!-- VHS tracking noise at edges -->
         <div class="vhs-noise"></div>
     </div>
     {/if}
 
-    <Poster on:loaded={handleLoaded} on:openRsvp={toggleRsvp} />
+    <div class="poster-wrapper" class:crt-power-on={isLoaded}>
+        <!-- CRT phosphor glow overlay during boot -->
+        <div class="crt-boot-glow"></div>
+        <!-- Horizontal beam line -->
+        <div class="crt-beam-line"></div>
+        <Poster on:loaded={handleLoaded} on:openRsvp={toggleRsvp} />
+    </div>
 
     {#if rsvpLoaded}
     <div class="rsvp-preload" class:show={showRsvp}>
@@ -354,7 +332,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, #3A5B8C 0%, #C94B7C 50%, #E58632 100%);
+        background: transparent;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -370,6 +348,201 @@
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
+    }
+
+    /* ========================================
+       CRT POWER-ON EFFECT
+       Using clip-path to avoid WebGL distortion
+       ======================================== */
+
+    .poster-wrapper {
+        position: relative;
+        /* Initial state: clipped to horizontal line at center */
+        clip-path: inset(50% 0 50% 0);
+        opacity: 0;
+        filter: brightness(0) saturate(0);
+    }
+
+    /* The horizontal beam line that appears first */
+    .crt-beam-line {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.3) 10%,
+            rgba(200, 220, 255, 0.9) 30%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(200, 220, 255, 0.9) 70%,
+            rgba(255, 255, 255, 0.3) 90%,
+            transparent 100%
+        );
+        box-shadow:
+            0 0 20px 8px rgba(180, 200, 255, 0.8),
+            0 0 40px 15px rgba(140, 180, 255, 0.5),
+            0 0 80px 30px rgba(100, 150, 255, 0.3);
+        opacity: 0;
+        z-index: 100;
+        pointer-events: none;
+    }
+
+    /* Phosphor bloom overlay during boot */
+    .crt-boot-glow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+            ellipse at center,
+            rgba(180, 200, 255, 0.4) 0%,
+            rgba(100, 150, 255, 0.2) 30%,
+            transparent 70%
+        );
+        opacity: 0;
+        z-index: 99;
+        pointer-events: none;
+        mix-blend-mode: screen;
+    }
+
+    /* Power-on animation sequence */
+    .poster-wrapper.crt-power-on {
+        animation: crt-power-on 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .poster-wrapper.crt-power-on .crt-beam-line {
+        animation: crt-beam 0.9s ease-out forwards;
+    }
+
+    .poster-wrapper.crt-power-on .crt-boot-glow {
+        animation: crt-glow 0.9s ease-out forwards;
+    }
+
+    @keyframes crt-power-on {
+        /* Initial darkness - clipped to thin line */
+        0% {
+            clip-path: inset(50% 0 50% 0);
+            opacity: 0;
+            filter: brightness(0) saturate(0);
+        }
+        /* Beam appears */
+        5% {
+            clip-path: inset(49.8% 0 49.8% 0);
+            opacity: 1;
+            filter: brightness(3) saturate(0);
+        }
+        /* Start expanding - phosphor glow */
+        15% {
+            clip-path: inset(45% 0 45% 0);
+            opacity: 1;
+            filter: brightness(2.5) saturate(0.3);
+        }
+        /* Rapid expansion with chromatic instability */
+        30% {
+            clip-path: inset(30% 0 30% 0);
+            opacity: 1;
+            filter: brightness(1.8) saturate(0.5) hue-rotate(-10deg);
+        }
+        /* Major expansion - color coming in */
+        50% {
+            clip-path: inset(10% 0 10% 0);
+            opacity: 1;
+            filter: brightness(1.4) saturate(0.8) hue-rotate(5deg);
+        }
+        /* Almost full - slight overshoot */
+        70% {
+            clip-path: inset(0% 0 0% 0);
+            opacity: 1;
+            filter: brightness(1.2) saturate(1.1) hue-rotate(-3deg);
+        }
+        /* Flicker */
+        80% {
+            clip-path: inset(0% 0 0% 0);
+            opacity: 0.9;
+            filter: brightness(0.85) saturate(1);
+        }
+        /* Quick bright flicker */
+        85% {
+            clip-path: inset(0% 0 0% 0);
+            opacity: 1;
+            filter: brightness(1.2) saturate(1);
+        }
+        /* Settle */
+        90% {
+            clip-path: inset(0% 0 0% 0);
+            opacity: 0.95;
+            filter: brightness(0.95) saturate(1);
+        }
+        /* Final stable state */
+        100% {
+            clip-path: inset(0% 0 0% 0);
+            opacity: 1;
+            filter: brightness(1) saturate(1);
+        }
+    }
+
+    @keyframes crt-beam {
+        0% {
+            opacity: 0;
+            height: 2px;
+            box-shadow:
+                0 0 10px 4px rgba(180, 200, 255, 0.5),
+                0 0 20px 8px rgba(140, 180, 255, 0.3);
+        }
+        5% {
+            opacity: 1;
+            height: 4px;
+            box-shadow:
+                0 0 30px 12px rgba(180, 200, 255, 1),
+                0 0 60px 25px rgba(140, 180, 255, 0.7),
+                0 0 100px 40px rgba(100, 150, 255, 0.4);
+        }
+        15% {
+            opacity: 1;
+            height: 8px;
+            box-shadow:
+                0 0 40px 15px rgba(180, 200, 255, 0.9),
+                0 0 80px 30px rgba(140, 180, 255, 0.5);
+        }
+        35% {
+            opacity: 0.6;
+            height: 20px;
+        }
+        50% {
+            opacity: 0.2;
+            height: 40px;
+        }
+        70% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes crt-glow {
+        0% {
+            opacity: 0;
+        }
+        5% {
+            opacity: 0;
+        }
+        15% {
+            opacity: 0.8;
+        }
+        40% {
+            opacity: 0.5;
+        }
+        70% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 0;
+        }
     }
 
     /* Font styling classes */
