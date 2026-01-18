@@ -4,6 +4,7 @@
 	import ShaderGUI from './ShaderGUI.svelte';
 	import DiscoBall from './DiscoBall.svelte';
 	import GlitchText from './GlitchText.svelte';
+	import PerformanceMonitor from './PerformanceMonitor.svelte';
 
 	let posterContainer;
 	let discoContainer;
@@ -160,6 +161,7 @@
 </script>
 
 <div class="poster" bind:this={posterContainer}>
+	<PerformanceMonitor />
 	<BackgroundShader container={posterContainer} params={shaderParams} {imageSrc} />
 	<ShaderGUI bind:params={shaderParams} bind:imageSrc {discoBallParams} bind:enableTextGlitch />
 
@@ -196,7 +198,7 @@
 
 		<!-- Disco ball with CRT/ASCII effect -->
 		<div class="disco-container" bind:this={discoContainer}>
-			<DiscoBall effectParams={discoBallParams} />
+			<DiscoBall effectParams={discoBallParams} on:activated={handleRsvpClick} />
 		</div>
 
 		<!-- Event details (hidden when glitch enabled - rendered in WebGL) -->

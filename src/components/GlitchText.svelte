@@ -319,8 +319,24 @@
 		camera.updateProjectionMatrix();
 	}
 
-	function animate() {
+	let lastTimestamp = 0;
+	let slowFrameCount = 0;
+
+	function animate(timestamp) {
 		if (!renderer || !scene || !camera) return;
+
+		// Performance tracking
+		const renderStart = performance.now();
+
+		// Calculate frame gap
+		const deltaMs = lastTimestamp > 0 ? timestamp - lastTimestamp : 16.67;
+		lastTimestamp = timestamp;
+
+		// Log slow frames (>50ms = <20fps)
+		if (deltaMs > 50) {
+			slowFrameCount++;
+			console.warn(`[TEXT] SLOW FRAME #${slowFrameCount}: ${deltaMs.toFixed(1)}ms gap`);
+		}
 
 		// Update effect parameters
 		if (chromaticGlitchEffect) {
@@ -356,6 +372,13 @@
 		}
 
 		composer.render();
+
+		// Log render time if slow
+		const renderTime = performance.now() - renderStart;
+		if (renderTime > 16) {
+			console.warn(`[TEXT] Render took ${renderTime.toFixed(1)}ms`);
+		}
+
 		animationId = requestAnimationFrame(animate);
 	}
 

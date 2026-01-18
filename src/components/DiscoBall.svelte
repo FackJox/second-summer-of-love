@@ -1,5 +1,5 @@
 <script>
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy, createEventDispatcher } from 'svelte';
 	import { browser } from '$app/environment';
 	import * as THREE from 'three';
 	import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -10,8 +10,30 @@
 	import { CrtAsciiEffect } from '$lib/shaders/CrtAsciiEffect.js';
 	import { ChromaticGlitchEffect } from '$lib/shaders/ChromaticGlitchEffect.js';
 
+	const dispatch = createEventDispatcher();
+
 	// Effect parameters - passed from parent (no default to avoid creating separate object)
 	export let effectParams;
+
+	// Interaction state
+	let isActivated = false;
+	let activatedSpinSpeed = 0;
+	let isDragging = false;
+	let dragStartX = 0;
+	let dragStartY = 0;
+	let dragVelocityX = 0;
+	let lastDragX = 0;
+	let lastDragTime = 0;
+	let hasTriggeredRsvp = false;
+
+	// Activation parameters
+	const ACTIVATED_SPIN_SPEED = 2.0; // Fast spin when activated
+	const SPIN_DECAY = 0.97; // How quickly spin decays back to normal
+	const DRAG_SENSITIVITY = 0.01; // How much drag affects spin
+	const MIN_DRAG_DISTANCE = 20; // Minimum pixels to count as a drag vs click
+
+	// Current rotation angle (tracked incrementally for smooth interaction)
+	let currentRotationY = 0;
 
 	// Disco ball color - matching reference red/coral
 	const DISCO_COLOR = 0xe05050;
@@ -40,6 +62,83 @@
 
 	// Clipping plane to hide back half of disco ball and rings
 	const clippingPlane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0);
+
+	// Interaction handlers
+	function handlePointerDown(e) {
+		const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+		const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+
+		isDragging = true;
+		dragStartX = clientX;
+		dragStartY = clientY;
+		lastDragX = clientX;
+		lastDragTime = performance.now();
+		dragVelocityX = 0;
+		hasTriggeredRsvp = false;
+	}
+
+	function handlePointerMove(e) {
+		if (!isDragging) return;
+
+		const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+		const now = performance.now();
+		const dt = now - lastDragTime;
+
+		if (dt > 0) {
+			// Calculate velocity (pixels per ms, then scale up)
+			const dx = clientX - lastDragX;
+			dragVelocityX = (dx / dt) * 16; // Normalize to ~60fps
+
+			// Apply drag velocity to spin
+			activatedSpinSpeed += dx * DRAG_SENSITIVITY;
+			isActivated = true;
+		}
+
+		lastDragX = clientX;
+		lastDragTime = now;
+	}
+
+	function handlePointerUp(e) {
+		if (!isDragging) return;
+
+		const clientX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
+		const clientY = e.changedTouches ? e.changedTouches[0].clientY : e.clientY;
+
+		const dragDistance = Math.sqrt(
+			Math.pow(clientX - dragStartX, 2) +
+			Math.pow(clientY - dragStartY, 2)
+		);
+
+		isDragging = false;
+
+		// Determine if this was a click or a drag
+		if (dragDistance < MIN_DRAG_DISTANCE) {
+			// Click - activate fast spin
+			activatedSpinSpeed = ACTIVATED_SPIN_SPEED;
+			isActivated = true;
+		} else {
+			// Drag - add momentum from final velocity
+			activatedSpinSpeed += dragVelocityX * DRAG_SENSITIVITY * 5;
+			isActivated = true;
+		}
+
+		// Trigger RSVP modal
+		if (!hasTriggeredRsvp) {
+			hasTriggeredRsvp = true;
+			dispatch('activated');
+		}
+	}
+
+	function handlePointerLeave() {
+		if (isDragging) {
+			isDragging = false;
+			// Still trigger if we were dragging
+			if (isActivated && !hasTriggeredRsvp) {
+				hasTriggeredRsvp = true;
+				dispatch('activated');
+			}
+		}
+	}
 
 	function initThree() {
 		scene = new THREE.Scene();
@@ -605,14 +704,24 @@
 	}
 
 	let lastTimestamp = 0;
+	let slowFrameCount = 0;
 
 	function animate(timestamp) {
 		if (!renderer || !scene || !camera) return;
+
+		// Performance tracking
+		const renderStart = performance.now();
 
 		// Calculate delta time for frame-rate independent animation
 		const deltaMs = lastTimestamp > 0 ? timestamp - lastTimestamp : 16.67;
 		const deltaTime = Math.min(deltaMs / 1000, 0.1); // Cap at 100ms
 		lastTimestamp = timestamp;
+
+		// Log slow frames (>50ms = <20fps)
+		if (deltaMs > 50) {
+			slowFrameCount++;
+			console.warn(`[DISCO] SLOW FRAME #${slowFrameCount}: ${deltaMs.toFixed(1)}ms gap`);
+		}
 
 		const time = timestamp * 0.001;
 
@@ -620,10 +729,28 @@
 		if (discoBallModel) {
 			discoBallModel.position.set(effectParams.positionX || 0, effectParams.positionY || 0, 0);
 			discoBallModel.scale.setScalar(effectParams.scale || 1.2);
-			const spinSpeed = effectParams.spinSpeed ?? 0.1;
+			const baseSpinSpeed = effectParams.spinSpeed ?? 0.1;
 			const tilt = effectParams.tilt ?? 0.3;
 			discoBallModel.rotation.x = tilt;
-			discoBallModel.rotation.y = time * spinSpeed;
+
+			// Apply base rotation
+			currentRotationY += baseSpinSpeed * deltaTime;
+
+			// Apply activated spin speed with decay
+			if (isActivated) {
+				currentRotationY += activatedSpinSpeed * deltaTime;
+
+				// Decay the activated speed back toward zero
+				activatedSpinSpeed *= SPIN_DECAY;
+
+				// Stop activation when speed is negligible
+				if (Math.abs(activatedSpinSpeed) < 0.01) {
+					activatedSpinSpeed = 0;
+					isActivated = false;
+				}
+			}
+
+			discoBallModel.rotation.y = currentRotationY;
 		}
 
 		// Animate sparkles
@@ -748,6 +875,12 @@
 		// Render
 		composer.render();
 
+		// Log render time if slow
+		const renderTime = performance.now() - renderStart;
+		if (renderTime > 16) {
+			console.warn(`[DISCO] Render took ${renderTime.toFixed(1)}ms`);
+		}
+
 		animationId = requestAnimationFrame(animate);
 	}
 
@@ -791,7 +924,20 @@
 </script>
 
 {#if mounted}
-	<canvas bind:this={canvas} class="disco-ball-canvas"></canvas>
+	<canvas
+		bind:this={canvas}
+		class="disco-ball-canvas"
+		on:mousedown={handlePointerDown}
+		on:mousemove={handlePointerMove}
+		on:mouseup={handlePointerUp}
+		on:mouseleave={handlePointerLeave}
+		on:touchstart|preventDefault={handlePointerDown}
+		on:touchmove|preventDefault={handlePointerMove}
+		on:touchend|preventDefault={handlePointerUp}
+		role="button"
+		tabindex="0"
+		aria-label="Spin the disco ball to RSVP"
+	></canvas>
 {/if}
 
 <style>
@@ -802,5 +948,11 @@
 		width: 100%;
 		height: 100%;
 		display: block;
+		cursor: grab;
+		touch-action: none;
+	}
+
+	.disco-ball-canvas:active {
+		cursor: grabbing;
 	}
 </style>
