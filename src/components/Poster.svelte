@@ -1,10 +1,8 @@
 <script>
 	import { onMount, createEventDispatcher } from 'svelte';
 	import BackgroundShader from './BackgroundShader.svelte';
-	import ShaderGUI from './ShaderGUI.svelte';
 	import DiscoBall from './DiscoBall.svelte';
 	import GlitchText from './GlitchText.svelte';
-	import PerformanceMonitor from './PerformanceMonitor.svelte';
 
 	let posterContainer;
 	let discoContainer;
@@ -161,9 +159,7 @@
 </script>
 
 <div class="poster" bind:this={posterContainer}>
-	<PerformanceMonitor />
 	<BackgroundShader container={posterContainer} params={shaderParams} {imageSrc} />
-	<ShaderGUI bind:params={shaderParams} bind:imageSrc {discoBallParams} bind:enableTextGlitch />
 
 	<div class="poster-content" style="transform: scale({scaleFactor});">
 		<!-- WebGL text with glitch effect -->

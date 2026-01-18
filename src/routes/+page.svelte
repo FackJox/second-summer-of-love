@@ -53,8 +53,43 @@
 
 <main>
     {#if !isLoaded}
-    <div class="loader" transition:fade={{ duration: 500 }}>
-        <img src="/assets/disco-ball.svg" alt="Loading..." />
+    <div class="loader" transition:fade={{ duration: 800 }}>
+        <!-- CRT scanlines overlay -->
+        <div class="loader-scanlines"></div>
+
+        <!-- Animated gradient orbs in background -->
+        <div class="loader-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+
+        <!-- Disco ball container with glow -->
+        <div class="disco-loader">
+            <div class="disco-glow"></div>
+            <div class="disco-ball-wrapper">
+                <img src="/assets/disco-ball.svg" alt="Loading..." class="disco-ball" />
+            </div>
+            <!-- Light rays emanating from disco ball -->
+            <div class="light-rays">
+                {#each Array(8) as _, i}
+                    <div class="ray" style="--ray-index: {i}"></div>
+                {/each}
+            </div>
+        </div>
+
+        <!-- Loading text with glitch effect -->
+        <div class="loader-text">
+            <span class="loader-title" data-text="WARMING UP">WARMING UP</span>
+            <div class="loader-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <!-- VHS tracking noise at edges -->
+        <div class="vhs-noise"></div>
     </div>
     {/if}
 
