@@ -411,15 +411,15 @@
 
     /* Power-on animation sequence */
     .poster-wrapper.crt-power-on {
-        animation: crt-power-on 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        animation: crt-power-on 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
     }
 
     .poster-wrapper.crt-power-on .crt-beam-line {
-        animation: crt-beam 0.9s ease-out forwards;
+        animation: crt-beam 0.7s ease-out forwards;
     }
 
     .poster-wrapper.crt-power-on .crt-boot-glow {
-        animation: crt-glow 0.9s ease-out forwards;
+        animation: crt-glow 0.7s ease-out forwards;
     }
 
     @keyframes crt-power-on {
