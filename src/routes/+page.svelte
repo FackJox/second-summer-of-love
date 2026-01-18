@@ -149,48 +149,6 @@
         background-color: #1a1a2e;
     }
 
-    /* CRT effect overlay for modals */
-    .crt-overlay {
-        position: relative;
-    }
-
-    .crt-overlay::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: repeating-linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.15) 0px,
-            rgba(0, 0, 0, 0.15) 1px,
-            transparent 1px,
-            transparent 3px
-        );
-        pointer-events: none;
-        z-index: 10;
-        border-radius: inherit;
-    }
-
-    .crt-overlay::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: radial-gradient(
-            ellipse at center,
-            transparent 0%,
-            transparent 60%,
-            rgba(0, 0, 0, 0.3) 100%
-        );
-        pointer-events: none;
-        z-index: 11;
-        border-radius: inherit;
-    }
-
     .modal {
         position: fixed;
         top: 0;
@@ -343,17 +301,6 @@
         justify-content: center;
         align-items: center;
         z-index: 2000;
-    }
-
-    .loader img {
-        width: 120px;
-        height: 120px;
-        animation: spin 3s linear infinite;
-    }
-
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
     }
 
     /* ========================================
