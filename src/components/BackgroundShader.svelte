@@ -33,7 +33,7 @@
 		// Pan speed
 		panSpeed: 0.001,
 		// Blur
-		blur: 0,
+		blur: 1.0,
 		// Color adjustments
 		saturation: 1.15,
 		contrast: 1.1,
@@ -106,6 +106,10 @@
 	// Frame timing
 	let lastTimestamp = 0;
 	let slowFrameCount = 0;
+
+	// Instance ID for debugging remounts
+	const instanceId = Math.random().toString(36).substring(2, 8);
+	console.log(`[BG:${instanceId}] Component created`);
 
 	const VERTEX_SHADER = `
 		attribute vec2 aPosition;
@@ -573,10 +577,22 @@
 		// Time-based pan movement (frame-rate independent)
 		// panSpeed is now units per second, not per frame
 		// Multiply by 60 to maintain similar visual speed (assuming original was ~60fps)
+		const oldPanX = panOffset.x;
+		const oldPanY = panOffset.y;
 		panOffset.x += panDirection.x * params.panSpeed * deltaTime * 60;
 		panOffset.y += panDirection.y * params.panSpeed * deltaTime * 60;
-		panOffset.x = ((panOffset.x % 4) + 4) % 4;
-		panOffset.y = ((panOffset.y % 4) + 4) % 4;
+
+		// Wrap pan offset smoothly - use large range to avoid frequent wrapping
+		// With MIRRORED_REPEAT texture, we need wrapping at multiples of 2 for seamless tiling
+		const wrapRange = 1000; // Large range to avoid wrapping during normal use
+		if (Math.abs(panOffset.x) > wrapRange) {
+			panOffset.x = panOffset.x % 2; // Wrap at 2 for seamless mirrored repeat
+			console.warn(`[BG] Pan X wrapped from ${oldPanX.toFixed(2)} to ${panOffset.x.toFixed(2)}`);
+		}
+		if (Math.abs(panOffset.y) > wrapRange) {
+			panOffset.y = panOffset.y % 2;
+			console.warn(`[BG] Pan Y wrapped from ${oldPanY.toFixed(2)} to ${panOffset.y.toFixed(2)}`);
+		}
 
 		const width = canvas.width;
 		const height = canvas.height;
@@ -667,6 +683,7 @@
 	}
 
 	onMount(async () => {
+		console.log(`[BG:${instanceId}] onMount`);
 		mounted = true;
 		await tick();
 
@@ -687,6 +704,7 @@
 	});
 
 	onDestroy(() => {
+		console.log(`[BG:${instanceId}] onDestroy - this would cause a position jump on remount!`);
 		if (!browser) return;
 
 		if (animationId) {

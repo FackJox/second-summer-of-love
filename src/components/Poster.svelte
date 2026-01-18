@@ -36,7 +36,7 @@
 		breatheSpeed: 0.05,
 		baseScale: 0.5,
 		panSpeed: 0.001,
-		blur: 0,
+		blur: 1.0,
 		// Color adjustments
 		saturation: 1.15,
 		contrast: 1.1,
