@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Comparison Test</title>
+    <style>
+        @font-face {
+            font-family: 'Font1';
+            src: url('/fonts/b46630e470f4040eba7033cf2435edce.woff') format('woff');
+        }
+        @font-face {
+            font-family: 'Font2-Bright';
+            src: url('/fonts/Bright_OTF.575e3b847f894908064a84a9a588e.8ef63dd14be782457a222c799c5980b2.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'Font3';
+            src: url('/fonts/cff149ee1e9d2be50ac77bcd86769d05.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'Font4-Horizon';
+            src: url('/fonts/horizon.c7c834b7fe209bdc0a30119a6b1d26ae.b3ebf62f8ff8ae950dea860d56c49d1b.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'Font5-NsevBd';
+            src: url('/fonts/scr-nsevbd-reg.3f1bb23215a22e898f7272aa2.4e21acea96a3d8e9d18d910b961567bb.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'Font6-Nsev';
+            src: url('/fonts/scr-nsev-reg.039ecb79bbf7e9fd5981a06a01c.28e686f1a1e6846cf246683ff0cd3181.woff2') format('woff2');
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: linear-gradient(180deg, #3A5B8C 0%, #C94B7C 50%, #E58632 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .font-test {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .font-name {
+            font-size: 12px;
+            color: #ccc;
+            margin-bottom: 10px;
+            font-family: monospace;
+        }
+
+        .sample-names {
+            font-size: 36px;
+            color: #9B2B5A;
+            margin: 5px 0;
+            letter-spacing: 2px;
+        }
+
+        .sample-subtitle {
+            font-size: 16px;
+            color: white;
+            font-style: italic;
+            letter-spacing: 4px;
+            margin: 10px 0;
+        }
+
+        .sample-headline {
+            font-size: 48px;
+            color: #E58632;
+            margin: 5px 0;
+        }
+
+        .sample-details {
+            font-size: 16px;
+            color: white;
+            letter-spacing: 2px;
+            margin: 5px 0;
+        }
+
+        .sample-cta {
+            font-size: 14px;
+            color: #1a1a1a;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 10px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .font1 { font-family: 'Font1', sans-serif; }
+        .font2 { font-family: 'Font2-Bright', sans-serif; }
+        .font3 { font-family: 'Font3', sans-serif; }
+        .font4 { font-family: 'Font4-Horizon', sans-serif; }
+        .font5 { font-family: 'Font5-NsevBd', sans-serif; }
+        .font6 { font-family: 'Font6-Nsev', sans-serif; }
+
+        .reference {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .reference h2 {
+            margin-top: 0;
+        }
+
+        .reference-text {
+            margin: 10px 0;
+            padding: 5px;
+            background: rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Font Comparison Test</h1>
+
+        <div class="reference">
+            <h2>Text from Canva Design:</h2>
+            <div class="reference-text"><strong>Names:</strong> COBIE COPE / SOPHIE COPE (bold condensed, magenta color)</div>
+            <div class="reference-text"><strong>Subtitle:</strong> INVITE YOU TO (italic serif, white, spaced)</div>
+            <div class="reference-text"><strong>Headline:</strong> THE SECOND SUMMER OF LOVE (chunky display, orange)</div>
+            <div class="reference-text"><strong>Details:</strong> SATURDAY 13 SEPTEMBER / FAITH IN STRANGERS / MARGATE / 17:30PM (condensed, white)</div>
+            <div class="reference-text"><strong>CTA:</strong> SPIN THE GLOBE TO RSVP (bold, dark)</div>
+        </div>
+
+        <!-- Font 1 -->
+        <div class="font-test">
+            <div class="font-name">Font 1: b46630e470f4040eba7033cf2435edce.woff</div>
+            <div class="sample-names font1">COBIE COPE</div>
+            <div class="sample-names font1">SOPHIE COPE</div>
+            <div class="sample-subtitle font1">INVITE YOU TO</div>
+            <div class="sample-headline font1">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font1">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font1">FAITH IN STRANGERS</div>
+            <div class="sample-cta font1">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+        <!-- Font 2 - Bright -->
+        <div class="font-test">
+            <div class="font-name">Font 2: Bright_OTF (likely display/headline font)</div>
+            <div class="sample-names font2">COBIE COPE</div>
+            <div class="sample-names font2">SOPHIE COPE</div>
+            <div class="sample-subtitle font2">INVITE YOU TO</div>
+            <div class="sample-headline font2">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font2">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font2">FAITH IN STRANGERS</div>
+            <div class="sample-cta font2">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+        <!-- Font 3 -->
+        <div class="font-test">
+            <div class="font-name">Font 3: cff149ee1e9d2be50ac77bcd86769d05.woff2</div>
+            <div class="sample-names font3">COBIE COPE</div>
+            <div class="sample-names font3">SOPHIE COPE</div>
+            <div class="sample-subtitle font3">INVITE YOU TO</div>
+            <div class="sample-headline font3">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font3">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font3">FAITH IN STRANGERS</div>
+            <div class="sample-cta font3">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+        <!-- Font 4 - Horizon -->
+        <div class="font-test">
+            <div class="font-name">Font 4: Horizon (likely retro/futuristic font)</div>
+            <div class="sample-names font4">COBIE COPE</div>
+            <div class="sample-names font4">SOPHIE COPE</div>
+            <div class="sample-subtitle font4">INVITE YOU TO</div>
+            <div class="sample-headline font4">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font4">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font4">FAITH IN STRANGERS</div>
+            <div class="sample-cta font4">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+        <!-- Font 5 - NsevBd -->
+        <div class="font-test">
+            <div class="font-name">Font 5: scr-nsevbd-reg (possibly bold variant)</div>
+            <div class="sample-names font5">COBIE COPE</div>
+            <div class="sample-names font5">SOPHIE COPE</div>
+            <div class="sample-subtitle font5">INVITE YOU TO</div>
+            <div class="sample-headline font5">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font5">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font5">FAITH IN STRANGERS</div>
+            <div class="sample-cta font5">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+        <!-- Font 6 - Nsev -->
+        <div class="font-test">
+            <div class="font-name">Font 6: scr-nsev-reg (possibly regular variant)</div>
+            <div class="sample-names font6">COBIE COPE</div>
+            <div class="sample-names font6">SOPHIE COPE</div>
+            <div class="sample-subtitle font6">INVITE YOU TO</div>
+            <div class="sample-headline font6">THE SECOND SUMMER OF LOVE</div>
+            <div class="sample-details font6">SATURDAY 13 SEPTEMBER</div>
+            <div class="sample-details font6">FAITH IN STRANGERS</div>
+            <div class="sample-cta font6">SPIN THE GLOBE TO RSVP</div>
+        </div>
+
+    </div>
+</body>
+</html>

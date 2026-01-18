@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="ballGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C94B7C;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#9B2B5A;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C94B7C;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#C94B7C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C94B7C;stop-opacity:0.1" />
+    </linearGradient>
+    <clipPath id="ballClip">
+      <circle cx="100" cy="100" r="54"/>
+    </clipPath>
+  </defs>
+
+  <!-- Ring behind ball (back half) -->
+  <ellipse cx="100" cy="105" rx="80" ry="16" fill="none" stroke="#C94B7C" stroke-width="2"/>
+
+  <!-- Main disco ball body -->
+  <circle cx="100" cy="100" r="55" fill="url(#ballGradient)"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#C94B7C" stroke-width="2.5"/>
+
+  <!-- Grid pattern inside ball -->
+  <g clip-path="url(#ballClip)">
+    <!-- Horizontal curved lines -->
+    <ellipse cx="100" cy="52" rx="50" ry="6" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="65" rx="53" ry="8" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="78" rx="54" ry="7" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="90" rx="55" ry="5" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="100" rx="55" ry="4" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="110" rx="55" ry="5" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="122" rx="54" ry="7" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="135" rx="53" ry="8" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <ellipse cx="100" cy="148" rx="50" ry="6" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+
+    <!-- Vertical lines -->
+    <path d="M100,45 Q100,100 100,155" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <path d="M80,48 Q75,100 80,152" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <path d="M120,48 Q125,100 120,152" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <path d="M60,55 Q50,100 60,145" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+    <path d="M140,55 Q150,100 140,145" fill="none" stroke="#C94B7C" stroke-width="1.5"/>
+  </g>
+
+  <!-- Ring in front of ball (front half) -->
+  <ellipse cx="100" cy="105" rx="80" ry="16" fill="none" stroke="url(#ringGradient)" stroke-width="2" stroke-dasharray="0,95,160,0"/>
+
+  <!-- Small decorative stars -->
+  <circle cx="168" cy="58" r="2.5" fill="#C94B7C"/>
+  <path d="M175,70 L177,65 L179,70 L174,67.5 L180,67.5 Z" fill="#C94B7C" opacity="0.8"/>
+  <circle cx="30" cy="140" r="2" fill="#C94B7C" opacity="0.7"/>
+  <path d="M22,128 L24,123 L26,128 L21,125.5 L27,125.5 Z" fill="#C94B7C" opacity="0.6"/>
+
+  <!-- Squiggle decorations -->
+  <path d="M162,148 Q168,142 165,136 Q162,130 168,124" fill="none" stroke="#C94B7C" stroke-width="2" opacity="0.7"/>
+  <path d="M32,62 Q38,56 35,50 Q32,44 38,38" fill="none" stroke="#C94B7C" stroke-width="2" opacity="0.7"/>
+</svg>

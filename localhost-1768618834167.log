@@ -1,0 +1,2654 @@
+(index):11  GET http://localhost:5173/zuume.woff2 net::ERR_ABORTED 404 (Not Found)
+(index):12  GET http://localhost:5173/bernoru.woff2 net::ERR_ABORTED 404 (Not Found)
+client:789 [vite] connecting...
+client:912 [vite] connected.
+BackgroundShader.svelte:119 [BG-DIAG] Component instance created: q24fp
+BackgroundShader.svelte:818 [BG-DIAG:q24fp] onMount - Active instances: ['q24fp']
+BackgroundShader.svelte:821 [BG-DIAG:q24fp] onMount called - initializing
+BackgroundShader.svelte:822 [BG-DIAG:q24fp] Initial params: {
+  "rotationSpeed": 0.03,
+  "timeScale": 0.16,
+  "blobStrength": 0.095,
+  "blobFreqX": 8.8,
+  "blobFreqY": 1.2,
+  "swirlStrength": 0.75,
+  "swirlFalloff": 3,
+  "swirlFreq": 10,
+  "swirlSpeed": 2,
+  "flowStrength": 0.11,
+  "flowFreq": 3,
+  "rippleStrength": 0.014,
+  "rippleFreq": 17.5,
+  "breatheAmount": 0.22,
+  "breatheSpeed": 0.05,
+  "baseScale": 0.5,
+  "panSpeed": 0.001,
+  "blur": 0,
+  "saturation": 1.15,
+  "contrast": 1.1,
+  "grainIntensity": 0.25,
+  "grainSize": 2.7,
+  "grainSpeed": 15,
+  "grainChroma": 0,
+  "speckleIntensity": 0.01,
+  "speckleSize": 0.1,
+  "speckleDensity": 0.791,
+  "speckleSpeed": 5
+}
+BackgroundShader.svelte:833 [BG-DIAG:q24fp] Animation starting, startTime: 798
+BackgroundShader.svelte:834 [BG-DIAG:q24fp] Initial animationId before start: undefined
+BackgroundShader.svelte:836 [BG-DIAG:q24fp] Animation started, animationId: 1
++page.svelte:20 Poster component loaded
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 1000.20
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 0.20
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 0.2022
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 0.2022
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.7192 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.6890, 0.7192]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 0.2022
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.0233
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0044 rad (0.2°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.0073
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.0163
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.0140
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.0279
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.0465
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.0419
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3023, 0.6000)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.9000, 0.6014)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.021577
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.115078
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.035962
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.115078
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 0.13
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.0067', y: '0.0033'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 2006.70
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 1.21
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 1.2087
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 1.2087
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9376 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.6890, 0.9376]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 1.2087
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.1813
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0340 rad (1.9°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.0567
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.1269
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.1088
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.2176
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.3627
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.3264
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3181, 0.5995)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8988, 0.6109)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.028129
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.150022
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.046882
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.157043
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 1.14
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 117
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.0607', y: '0.0303'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000451
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 3013.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 2.21
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 2.2150
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 2.2150
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9953 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.6890, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 2.2150
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.3527
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0661 rad (3.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1102
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.2469
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.2116
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.4233
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.7054
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.6349
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3351, 0.5980)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8955, 0.6211)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.029858
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.159241
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.049763
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.170314
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 2.15
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 238
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.1147', y: '0.0573'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 4019.50
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 3.22
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 3.2215
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 3.2215
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.8579 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.6890, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 3.2215
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.4422
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0829 rad (4.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1382
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.3096
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.2653
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.5307
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.8844
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.7960
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3439, 0.5969)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8930, 0.6265)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.025738
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.137271
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.042897
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.088921
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 3.15
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 359
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.1686', y: '0.0843'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000451
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 5025.90
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 4.23
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 4.2279
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 4.2279
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.6071 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.6071, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 4.2279
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.4107
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0770 rad (4.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1283
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.2875
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.2464
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.4928
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.8214
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.7393
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3408, 0.5973)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8940, 0.6246)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.018214
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.097140
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.030356
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.031320
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 4.16
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 480
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.2226', y: '0.1113'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000451
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 6032.30
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 5.23
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 5.2343
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 5.2343
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3915 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3915, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 5.2343
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.3279
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0615 rad (3.5°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1025
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.2295
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.1967
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.3935
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.6558
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.5902
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3326, 0.5983)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8961, 0.6196)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.011745
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.062642
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.019576
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.082286
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 5.17
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 601
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.2766', y: '0.1383'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 7038.70
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 6.24
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 6.2407
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 6.2407
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3389 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 6.2407
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.3384
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.0635 rad (3.6°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1058
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.2369
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.2031
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.4061
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 0.6769
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 0.6092
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3337, 0.5982)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8959, 0.6203)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010168
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.054231
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.016947
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.010485
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 6.17
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 722
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.3306', y: '0.1653'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+client:883 [vite] hot updated: /src/components/ShaderGUI.svelte
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 8045.10
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 7.25
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 7.2471
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 7.2471
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.4806 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 7.2471
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.5573
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.1045 rad (6.0°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.1741
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.3901
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.3344
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.6687
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 1.1145
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 1.0031
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3550, 0.5951)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8889, 0.6333)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.014418
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.076894
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.024029
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.217428
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 7.18
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 832
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.3846', y: '0.1923'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 9051.60
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 8.25
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 8.2536
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 8.2536
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.7325 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 8.2536
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.9673
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.1814 rad (10.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.3023
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.6771
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.5804
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.1608
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 1.9346
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 1.7411
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3930, 0.5852)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8673, 0.6572)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.021975
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.117198
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.036624
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.407400
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 8.18
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 952
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.4386', y: '0.2193'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000451
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 10058.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 9.26
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 9.2600
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 9.2600
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9452 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 9.2600
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.4005
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2626 rad (15.0°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.4376
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.9803
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.8403
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.6806
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 2.8009
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.5208
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4289, 0.5694)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8335, 0.6816)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.028357
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.151239
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.047262
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.430411
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.152046
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 9.19
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1073
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.4926', y: '0.2463'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000445
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 11064.40
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 10.27
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 10.2664
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 10.2664
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9927 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 10.2664
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.6307
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3058 rad (17.5°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.5096
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.1415
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.9784
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.9568
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.2614
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.9352
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4456, 0.5589)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8117, 0.6940)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.029782
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.158836
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.049636
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.228743
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.160012
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 10.20
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1194
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.5465', y: '0.2733'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.8940', y: '0.4470'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000451
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 12070.80
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 11.27
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 11.2728
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 11.2728
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.8468 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 11.2728
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.5273
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2864 rad (16.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.4773
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.0691
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.9164
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.8328
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.0546
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.7492
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4383, 0.5638)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8217, 0.6885)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.025404
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.135486
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.042339
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.102712
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.129677
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 11.20
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1315
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.6054', y: '0.2829'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.9976', y: '0.0694'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000497
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 13077.20
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 12.28
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 12.2792
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 12.2792
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5940 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 12.2792
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.1669
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2188 rad (12.5°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.3647
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.8168
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.7002
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.4003
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 2.3338
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.1005
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4102, 0.5786)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8529, 0.6686)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.017819
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.095033
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.029698
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.358091
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.080010
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 12.21
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1436
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.6656', y: '0.2871'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.9980', y: '0.0639'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000497
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 14083.70
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 13.29
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 13.2857
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 13.2857
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3841 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 13.2857
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.8165
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.1531 rad (8.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.2552
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.5716
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.4899
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.9798
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 1.6331
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 1.4697
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3794, 0.5894)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8765, 0.6485)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.011524
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.061459
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.019206
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.348134
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.044804
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 13.22
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1557
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.7259', y: '0.2911'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '0.9974', y: '0.0719'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: 0.000503
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 15090.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 14.29
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 14.2920
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 14.2920
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3417 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 14.2920
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 0.7814
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.1465 rad (8.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.2442
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.5470
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.4689
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 0.9377
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 1.5629
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 1.4066
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3762, 0.5903)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8784, 0.6465)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010252
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.054677
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.017087
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.034863
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.050074
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 14.22
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1678
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.6821', y: '0.3228'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 16096.50
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 15.30
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 15.2985
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 15.2985
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.4919 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 15.2985
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.2041
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2258 rad (12.9°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.3763
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.8429
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.7224
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.4449
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 2.4082
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.1673
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4133, 0.5772)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8500, 0.6707)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.014757
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.078706
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.024596
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.419908
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.095569
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 15.23
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1799
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.6295', y: '0.3526'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 17102.90
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 16.30
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 16.3049
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 16.3049
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.7456 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 16.3049
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.9451
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3647 rad (20.9°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.6078
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.3616
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.1671
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.3341
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.8902
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.5012
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4653, 0.5425)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7786, 0.7102)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.022368
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.119296
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.037280
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.736319
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.153222
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 16.24
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 1920
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.5770', y: '0.3824'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 18109.30
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 17.31
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 17.3113
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 17.3113
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9524 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 17.3113
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.6379
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4946 rad (28.3°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.8244
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.8466
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.5828
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.1655
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.2759
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 4.7483
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4937, 0.4986)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.6976, 0.7423)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.028572
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.152383
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.047620
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.688421
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.184444
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 17.24
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2041
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.5245', y: '0.4122'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 19115.70
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 18.32
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 18.3177
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 18.3177
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9897 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 18.3177
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.9006
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.5439 rad (31.2°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.9064
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.0304
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.7403
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.4807
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.8011
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 5.2210
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4985, 0.4798)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.6663, 0.7529)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.029690
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.158347
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.049484
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.260952
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.165615
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 18.25
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2162
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.4719', y: '0.4419'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 20122.20
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 19.32
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 19.3242
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 19.3242
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.8353 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 19.3242
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.5827
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4843 rad (27.7°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.8071
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.8079
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.5496
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.0992
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.1654
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 4.6489
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4922, 0.5024)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7042, 0.7399)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.025060
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.133651
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.041766
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.315814
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.105105
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.152046 Rate 2nd half: 0.105105
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -30.87% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 19.26
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2283
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.4194', y: '0.4717'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 21128.50
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 20.33
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 20.3305
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 20.3305
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5809 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 20.3305
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.8896
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3543 rad (20.3°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.5905
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.3227
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.1338
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.2675
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.7792
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.4013
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4621, 0.5455)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7847, 0.7074)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.017427
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.092944
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.029045
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.688755
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.039998
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.160012 Rate 2nd half: 0.039998
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -75.00% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.20
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 122.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0082
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 20.26
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2404
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.3669', y: '0.5015'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000428
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 22135.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 21.34
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 21.3370
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 21.3370
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3772 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 21.3370
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.2877
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2415 rad (13.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.4024
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.9014
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.7726
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.5453
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 2.5755
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.3179
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4201, 0.5740)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8432, 0.6754)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.011316
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.060352
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.018860
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.597978
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.013338
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.129677 Rate 2nd half: 0.013338
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -89.71% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 21.27
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2525
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.3143', y: '0.5313'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 23141.40
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 22.34
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 22.3434
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 22.3434
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3451 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 22.3434
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.2336
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.2313 rad (13.3°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.3855
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 0.8635
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 0.7401
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 1.4803
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 2.4671
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 2.2204
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4157, 0.5761)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8477, 0.6723)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010352
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.055209
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.017253
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.053835
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.046041
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.080010 Rate 2nd half: 0.046041
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -42.46% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 22.27
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2646
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.2618', y: '0.5610'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 24147.80
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 23.35
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 23.3498
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 23.3498
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5035 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 23.3498
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.8811
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3527 rad (20.2°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.5878
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.3167
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.1286
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.2573
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.7621
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.3859
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4616, 0.5460)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7856, 0.7070)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.015105
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.080560
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.025175
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.643382
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.121399
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.044804 Rate 2nd half: 0.121399
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 170.95% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.20
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 122.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0082
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 23.28
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2767
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.2093', y: '0.5908'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000428
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 25154.30
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 24.36
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 24.3563
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 24.3563
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.7586 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 24.3563
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.9563
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.5543 rad (31.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.9238
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.0694
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.7738
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.5476
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.9126
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 5.3214
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4991, 0.4757)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.6597, 0.7550)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.022758
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.121378
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.037931
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.068318
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.193451
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.050074 Rate 2nd half: 0.193451
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 286.33% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 24.29
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 2888
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.1567', y: '0.6206'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 26160.60
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 25.36
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 25.3626
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 25.3626
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9591 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 25.3626
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 3.8919
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.7297 rad (41.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.2162
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.7244
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 2.3352
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 4.6703
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 7.7839
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 7.0055
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4861, 0.4028)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5616, 0.7840)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.028772
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.153452
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.047954
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.929768
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.214937
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.095569 Rate 2nd half: 0.214937
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 124.90% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 25.29
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3009
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.1042', y: '0.6504'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 27167.10
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 26.37
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 26.3691
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 26.3691
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9861 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 26.3691
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 4.1603
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.7801 rad (44.7°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.3001
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.9122
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 2.4962
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 4.9924
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 8.3207
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 7.4886
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4746, 0.3814)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5402, 0.7897)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.029583
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.157774
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.049304
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.266669
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.168077
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.153222 Rate 2nd half: 0.168077
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 9.69% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 26.30
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3130
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '0.0517', y: '0.6801'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 28173.50
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 27.38
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 27.3755
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 27.3755
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.8236 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 27.3755
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 3.6074
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.6764 rad (38.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.1273
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.5252
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 2.1644
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 4.3289
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 7.2148
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 6.4933
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4946, 0.4255)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5881, 0.7766)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.024708
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.131775
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.041180
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.549417
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.078038
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.184444 Rate 2nd half: 0.078038
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -57.69% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 27.31
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3251
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.9991', y: '0.7099'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 29180.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 28.38
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 28.3820
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 28.3820
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5679 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 28.3820
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.5791
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4836 rad (27.7°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.8060
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.8053
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.5474
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.0949
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.1581
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 4.6423
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4921, 0.5027)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7047, 0.7398)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.017038
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.090870
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.028397
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.021702
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): -0.000400
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.165615 Rate 2nd half: -0.000400
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -100.24% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 28.31
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3372
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.9466', y: '0.7397'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000438
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 30186.40
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 29.39
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 29.3884
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 29.3884
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3707 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 29.3884
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.7433
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3269 rad (18.7°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.5448
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.2203
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.0460
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.0919
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.4866
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.1379
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4531, 0.5533)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8002, 0.6999)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.011122
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.059319
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.018537
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.830477
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): -0.016154
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.105105 Rate 2nd half: -0.016154
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -115.37% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 29.32
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3493
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.8941', y: '0.7695'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000438
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 31192.80
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 30.39
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 30.3948
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 30.3948
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3489 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 30.3948
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 1.6968
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.3181 rad (18.2°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.5302
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.1877
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.0181
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.0361
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 3.3936
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.0542
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4500, 0.5557)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.8050, 0.6975)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010467
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.055825
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.017445
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.046201
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.045159
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.039998 Rate 2nd half: 0.045159
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 12.90% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 30.33
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3614
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.8415', y: '0.7992'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 32199.20
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 31.40
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 31.4012
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 31.4012
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5154 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 31.4012
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.5893
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4855 rad (27.8°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.8092
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.8125
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.5536
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.1072
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 5.1787
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 4.6608
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4924, 0.5020)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7034, 0.7402)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.015461
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.082460
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.025769
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.886883
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.149681
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.013338 Rate 2nd half: 0.149681
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 1022.23% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.40
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 119.0
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0084
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 31.33
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3735
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.7890', y: '0.8290'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000438
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 33205.60
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 32.41
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 32.4076
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 32.4076
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.7714 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 32.4076
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 4.0001
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.7500 rad (43.0°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.2500
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.8001
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 2.4001
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 4.8002
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 8.0003
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 7.2002
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4819, 0.3941)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5525, 0.7864)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.023143
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.123432
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.038572
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.401816
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.233950
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.046041 Rate 2nd half: 0.233950
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 408.13% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 32.34
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3856
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.7365', y: '0.8588'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 34212.00
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 33.41
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 33.4140
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 33.4140
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9653 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 33.4140
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 5.1607
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.9676 rad (55.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.6127
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 3.6125
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 3.0964
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 6.1929
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 10.3214
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 9.2893
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4064, 0.3053)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5002, 0.7999)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.028959
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.154448
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.048265
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.153204
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.243372
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.121399 Rate 2nd half: 0.243372
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: 100.47% ⚠️ ACCELERATING!
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 33.34
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 3977
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.6839', y: '0.8886'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+DiscoBall.svelte?t=1768618675366:629 Effect params: 2 0 0.51
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 35218.40
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 34.42
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 34.4204
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 34.4204
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.9820 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 34.4204
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 5.4081
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 1.0140 rad (58.1°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.6900
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 3.7856
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 3.2448
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 6.4897
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 10.8161
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 9.7345
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.3847, 0.2883)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5011, 0.7997)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.029460
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.157118
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.049099
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.245769
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.167382
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.193451 Rate 2nd half: 0.167382
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -13.48% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 8.30
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 120.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0083
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 34.35
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4098
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.6314', y: '0.9183'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000433
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 36229.80
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 35.43
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 35.4318
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 35.4318
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.8104 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 35.4318
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 4.5944
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.8615 rad (49.4°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.4358
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 3.2161
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 2.7567
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 5.5133
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 9.1889
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 8.2700
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4495, 0.3472)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.5146, 0.7963)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.024313
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.129670
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.040522
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.804439
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.047899
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.214937 Rate 2nd half: 0.047899
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -77.71% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 16.60
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 60.2
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0166
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 35.36
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4207
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.5790', y: '0.9480'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000866
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 37246.50
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 36.45
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 36.4485
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 36.4485
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.5514 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 36.4485
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 3.2159
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.6030 rad (34.5°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 1.0050
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 2.2511
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.9295
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 3.8590
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 6.4317
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 5.7885
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4999, 0.4561)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.6298, 0.7644)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.016543
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.088230
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.027572
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.355941
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): -0.043156
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.168077 Rate 2nd half: -0.043156
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -125.68% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 16.70
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 59.9
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0167
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 36.38
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4268
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.5260', y: '0.9781'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 38263.10
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 37.47
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 37.4651
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 37.4651
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3620 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 37.4651
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.1700
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4069 rad (23.3°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.6781
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.5190
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.3020
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.6040
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 4.3400
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.9060
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4769, 0.5293)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7531, 0.7212)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010860
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.057920
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.018100
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.028803
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): -0.045039
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: 0.078038 Rate 2nd half: -0.045039
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -157.71% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 16.60
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 60.2
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0166
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 37.40
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4329
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.4729', y: '1.0082'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000866
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+BackgroundShader.svelte:709 [BG-DIAG:q24fp] timeScale: 0.16
+BackgroundShader.svelte:710 [BG-DIAG:q24fp] breatheSpeed: 0.05
+BackgroundShader.svelte:711 [BG-DIAG:q24fp] swirlSpeed: 2
+client:883 [vite] hot updated: /src/components/DiscoBall.svelte
+BackgroundShader.svelte:629 [BG-DIAG:q24fp] ==============================
+BackgroundShader.svelte:630 [BG-DIAG:q24fp] RAW timestamp (ms): 39279.80
+BackgroundShader.svelte:631 [BG-DIAG:q24fp] startTime: 798.00 (stable)
+BackgroundShader.svelte:632 [BG-DIAG:q24fp] Elapsed since start (s): 38.48
+BackgroundShader.svelte:633 [BG-DIAG:q24fp] Shader time (wraps at 628): 38.4818
+BackgroundShader.svelte:634 [BG-DIAG:q24fp] Time before wrap: 38.4818
+BackgroundShader.svelte:635 [BG-DIAG:q24fp] ------- SPEED VALUES -------
+BackgroundShader.svelte:636 [BG-DIAG:q24fp] speedMod (current): 0.3566 (should be 0.333-1.0)
+BackgroundShader.svelte:637 [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+BackgroundShader.svelte:638 [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+BackgroundShader.svelte:639 [BG-DIAG:q24fp] uTime (sent to shader): 38.4818
+BackgroundShader.svelte:640 [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.1956
+BackgroundShader.svelte:641 [BG-DIAG:q24fp] rotationAngle: 0.4117 rad (23.6°)
+BackgroundShader.svelte:642 [BG-DIAG:q24fp] breathePhase: 0.6861
+BackgroundShader.svelte:643 [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+BackgroundShader.svelte:644 [BG-DIAG:q24fp] blob1Phase: 1.5369
+BackgroundShader.svelte:645 [BG-DIAG:q24fp] blob2Phase: 1.3173
+BackgroundShader.svelte:646 [BG-DIAG:q24fp] flowPhase: 2.6347
+BackgroundShader.svelte:647 [BG-DIAG:q24fp] ripple1Phase: 4.3912
+BackgroundShader.svelte:648 [BG-DIAG:q24fp] ripple2Phase: 3.9520
+BackgroundShader.svelte:649 [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+BackgroundShader.svelte:650 [BG-DIAG:q24fp] center1: (0.4780, 0.5277)
+BackgroundShader.svelte:651 [BG-DIAG:q24fp] center2: (0.7501, 0.7224)
+BackgroundShader.svelte:652 [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+BackgroundShader.svelte:653 [BG-DIAG:q24fp] Effective rotation speed: 0.010698
+BackgroundShader.svelte:654 [BG-DIAG:q24fp] Effective timeScale: 0.057055
+BackgroundShader.svelte:655 [BG-DIAG:q24fp] Effective breatheSpeed: 0.017830
+BackgroundShader.svelte:656 [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+BackgroundShader.svelte:657 [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.025180
+BackgroundShader.svelte:658 [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+BackgroundShader.svelte:665 [BG-DIAG:q24fp] Avg t rate (last 10s): 0.049739
+BackgroundShader.svelte:674 [BG-DIAG:q24fp] Rate 1st half: -0.000400 Rate 2nd half: 0.049739
+BackgroundShader.svelte:675 [BG-DIAG:q24fp] Rate change: -12529.07% (stable)
+BackgroundShader.svelte:678 [BG-DIAG:q24fp] ------- FRAME TIMING -------
+BackgroundShader.svelte:679 [BG-DIAG:q24fp] Frame delta (ms): 16.80
+BackgroundShader.svelte:680 [BG-DIAG:q24fp] FPS: 59.5
+BackgroundShader.svelte:681 [BG-DIAG:q24fp] deltaTime (s): 0.0168
+BackgroundShader.svelte:682 [BG-DIAG:q24fp] cumulativeTime (s): 38.41
+BackgroundShader.svelte:683 [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+BackgroundShader.svelte:684 [BG-DIAG:q24fp] Total frames: 4388
+BackgroundShader.svelte:685 [BG-DIAG:q24fp] ------- PAN VALUES -------
+BackgroundShader.svelte:686 [BG-DIAG:q24fp] panOffset: {x: '3.4198', y: '1.0383'}
+BackgroundShader.svelte:687 [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+BackgroundShader.svelte:688 [BG-DIAG:q24fp] panSpeed param: 0.001
+BackgroundShader.svelte:689 [BG-DIAG:q24fp] Pan movement this frame: -0.000877
+BackgroundShader.svelte:707 [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+BackgroundShader.svelte:708 [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 40296.30
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 39.50
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 39.4983
+ [BG-DIAG:q24fp] Time before wrap: 39.4983
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.5385 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 39.4983
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 3.4029
+ [BG-DIAG:q24fp] rotationAngle: 0.6381 rad (36.6°)
+ [BG-DIAG:q24fp] breathePhase: 1.0634
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 2.3821
+ [BG-DIAG:q24fp] blob2Phase: 2.0418
+ [BG-DIAG:q24fp] flowPhase: 4.0835
+ [BG-DIAG:q24fp] ripple1Phase: 6.8059
+ [BG-DIAG:q24fp] ripple2Phase: 6.1253
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4983, 0.4416)
+ [BG-DIAG:q24fp] center2: (0.6092, 0.7705)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.016154
+ [BG-DIAG:q24fp] Effective timeScale: 0.086154
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.026923
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.187770
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.187418
+ [BG-DIAG:q24fp] Rate 1st half: -0.016154 Rate 2nd half: 0.187418
+ [BG-DIAG:q24fp] Rate change: -1260.18% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.60
+ [BG-DIAG:q24fp] FPS: 60.2
+ [BG-DIAG:q24fp] deltaTime (s): 0.0166
+ [BG-DIAG:q24fp] cumulativeTime (s): 39.43
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4449
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.3668', y: '1.0683'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000866
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 41296.40
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 40.50
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 40.4984
+ [BG-DIAG:q24fp] Time before wrap: 40.4984
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.7937 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 40.4984
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 5.1432
+ [BG-DIAG:q24fp] rotationAngle: 0.9644 rad (55.3°)
+ [BG-DIAG:q24fp] breathePhase: 1.6073
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 3.6003
+ [BG-DIAG:q24fp] blob2Phase: 3.0859
+ [BG-DIAG:q24fp] flowPhase: 6.1719
+ [BG-DIAG:q24fp] ripple1Phase: 10.2864
+ [BG-DIAG:q24fp] ripple2Phase: 9.2578
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4079, 0.3065)
+ [BG-DIAG:q24fp] center2: (0.5003, 0.7999)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.023812
+ [BG-DIAG:q24fp] Effective timeScale: 0.126998
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.039687
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.740098
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.280732
+ [BG-DIAG:q24fp] Rate 1st half: 0.045159 Rate 2nd half: 0.280732
+ [BG-DIAG:q24fp] Rate change: 521.65% ⚠️ ACCELERATING!
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 40.43
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4509
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.3146', y: '1.0979'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 42313.00
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 41.52
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 41.5150
+ [BG-DIAG:q24fp] Time before wrap: 41.5150
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.9761 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 41.5150
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 6.4836
+ [BG-DIAG:q24fp] rotationAngle: 1.2157 rad (69.7°)
+ [BG-DIAG:q24fp] breathePhase: 2.0261
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 4.5385
+ [BG-DIAG:q24fp] blob2Phase: 3.8902
+ [BG-DIAG:q24fp] flowPhase: 7.7803
+ [BG-DIAG:q24fp] ripple1Phase: 12.9672
+ [BG-DIAG:q24fp] ripple2Phase: 11.6705
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.2800, 0.2293)
+ [BG-DIAG:q24fp] center2: (0.5535, 0.7862)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.029283
+ [BG-DIAG:q24fp] Effective timeScale: 0.156175
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.048805
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.318516
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.272689
+ [BG-DIAG:q24fp] Rate 1st half: 0.149681 Rate 2nd half: 0.272689
+ [BG-DIAG:q24fp] Rate change: 82.18% ⚠️ ACCELERATING!
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 41.45
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4570
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.2615', y: '1.1280'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 43329.60
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 42.53
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 42.5316
+ [BG-DIAG:q24fp] Time before wrap: 42.5316
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.9714 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 42.5316
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 6.6101
+ [BG-DIAG:q24fp] rotationAngle: 1.2394 rad (71.0°)
+ [BG-DIAG:q24fp] breathePhase: 2.0657
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 4.6271
+ [BG-DIAG:q24fp] blob2Phase: 3.9661
+ [BG-DIAG:q24fp] flowPhase: 7.9321
+ [BG-DIAG:q24fp] ripple1Phase: 13.2202
+ [BG-DIAG:q24fp] ripple2Phase: 11.8982
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.2675, 0.2242)
+ [BG-DIAG:q24fp] center2: (0.5642, 0.7832)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.029141
+ [BG-DIAG:q24fp] Effective timeScale: 0.155416
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.048568
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.124418
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.158966
+ [BG-DIAG:q24fp] Rate 1st half: 0.233950 Rate 2nd half: 0.158966
+ [BG-DIAG:q24fp] Rate change: -32.05% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 42.46
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4631
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.2084', y: '1.1581'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 44346.30
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 43.55
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 43.5483
+ [BG-DIAG:q24fp] Time before wrap: 43.5483
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.7823 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 43.5483
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 5.4512
+ [BG-DIAG:q24fp] rotationAngle: 1.0221 rad (58.6°)
+ [BG-DIAG:q24fp] breathePhase: 1.7035
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 3.8158
+ [BG-DIAG:q24fp] blob2Phase: 3.2707
+ [BG-DIAG:q24fp] flowPhase: 6.5414
+ [BG-DIAG:q24fp] ripple1Phase: 10.9024
+ [BG-DIAG:q24fp] ripple2Phase: 9.8121
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.3808, 0.2855)
+ [BG-DIAG:q24fp] center2: (0.5017, 0.7996)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.023470
+ [BG-DIAG:q24fp] Effective timeScale: 0.125176
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.039117
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.139881
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.004725
+ [BG-DIAG:q24fp] Rate 1st half: 0.243372 Rate 2nd half: 0.004725
+ [BG-DIAG:q24fp] Rate change: -98.06% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 43.48
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4692
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.1554', y: '1.1882'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 45362.80
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 44.56
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 44.5648
+ [BG-DIAG:q24fp] Time before wrap: 44.5648
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.5234 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 44.5648
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 3.7318
+ [BG-DIAG:q24fp] rotationAngle: 0.6997 rad (40.1°)
+ [BG-DIAG:q24fp] breathePhase: 1.1662
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 2.6123
+ [BG-DIAG:q24fp] blob2Phase: 2.2391
+ [BG-DIAG:q24fp] flowPhase: 4.4782
+ [BG-DIAG:q24fp] ripple1Phase: 7.4636
+ [BG-DIAG:q24fp] ripple2Phase: 6.7172
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4914, 0.4156)
+ [BG-DIAG:q24fp] center2: (0.5761, 0.7800)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.015701
+ [BG-DIAG:q24fp] Effective timeScale: 0.083739
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.026168
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.691484
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): -0.094454
+ [BG-DIAG:q24fp] Rate 1st half: 0.167382 Rate 2nd half: -0.094454
+ [BG-DIAG:q24fp] Rate change: -156.43% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.60
+ [BG-DIAG:q24fp] FPS: 60.2
+ [BG-DIAG:q24fp] deltaTime (s): 0.0166
+ [BG-DIAG:q24fp] cumulativeTime (s): 44.50
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4753
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.1023', y: '1.2182'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000866
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 46379.50
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 45.58
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 45.5815
+ [BG-DIAG:q24fp] Time before wrap: 45.5815
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.3509 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 45.5815
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.5588
+ [BG-DIAG:q24fp] rotationAngle: 0.4798 rad (27.5°)
+ [BG-DIAG:q24fp] breathePhase: 0.7996
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 1.7912
+ [BG-DIAG:q24fp] blob2Phase: 1.5353
+ [BG-DIAG:q24fp] flowPhase: 3.0705
+ [BG-DIAG:q24fp] ripple1Phase: 5.1176
+ [BG-DIAG:q24fp] ripple2Phase: 4.6058
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4916, 0.5041)
+ [BG-DIAG:q24fp] center2: (0.7071, 0.7389)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.010526
+ [BG-DIAG:q24fp] Effective timeScale: 0.056137
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.017543
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): -1.153736
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): -0.071945
+ [BG-DIAG:q24fp] Rate 1st half: 0.047899 Rate 2nd half: -0.071945
+ [BG-DIAG:q24fp] Rate change: -250.20% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 45.51
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4814
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '3.0492', y: '1.2483'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 47396.10
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 46.60
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 46.5981
+ [BG-DIAG:q24fp] Time before wrap: 46.5981
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.3691 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 46.5981
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 2.7521
+ [BG-DIAG:q24fp] rotationAngle: 0.5160 rad (29.6°)
+ [BG-DIAG:q24fp] breathePhase: 0.8600
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 1.9265
+ [BG-DIAG:q24fp] blob2Phase: 1.6512
+ [BG-DIAG:q24fp] flowPhase: 3.3025
+ [BG-DIAG:q24fp] ripple1Phase: 5.5041
+ [BG-DIAG:q24fp] ripple2Phase: 4.9537
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4962, 0.4906)
+ [BG-DIAG:q24fp] center2: (0.6839, 0.7470)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.011074
+ [BG-DIAG:q24fp] Effective timeScale: 0.059060
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.018456
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 0.190130
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.063736
+ [BG-DIAG:q24fp] Rate 1st half: -0.043156 Rate 2nd half: 0.063736
+ [BG-DIAG:q24fp] Rate change: -247.69% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 46.53
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4875
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '2.9962', y: '1.2784'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 48412.70
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 47.61
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 47.6147
+ [BG-DIAG:q24fp] Time before wrap: 47.6147
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.5671 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 47.6147
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 4.3205
+ [BG-DIAG:q24fp] rotationAngle: 0.8101 rad (46.4°)
+ [BG-DIAG:q24fp] breathePhase: 1.3501
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 3.0243
+ [BG-DIAG:q24fp] blob2Phase: 2.5923
+ [BG-DIAG:q24fp] flowPhase: 5.1845
+ [BG-DIAG:q24fp] ripple1Phase: 8.6409
+ [BG-DIAG:q24fp] ripple2Phase: 7.7768
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.4663, 0.3687)
+ [BG-DIAG:q24fp] center2: (0.5294, 0.7925)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.017013
+ [BG-DIAG:q24fp] Effective timeScale: 0.090738
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.028356
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.542771
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.232662
+ [BG-DIAG:q24fp] Rate 1st half: -0.045039 Rate 2nd half: 0.232662
+ [BG-DIAG:q24fp] Rate change: -616.58% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 47.55
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4936
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '2.9431', y: '1.3085'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 49429.30
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 48.63
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 48.6313
+ [BG-DIAG:q24fp] Time before wrap: 48.6313
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.8252 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 48.6313
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 6.4206
+ [BG-DIAG:q24fp] rotationAngle: 1.2039 rad (69.0°)
+ [BG-DIAG:q24fp] breathePhase: 2.0064
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 4.4944
+ [BG-DIAG:q24fp] blob2Phase: 3.8524
+ [BG-DIAG:q24fp] flowPhase: 7.7047
+ [BG-DIAG:q24fp] ripple1Phase: 12.8412
+ [BG-DIAG:q24fp] ripple2Phase: 11.5571
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.2863, 0.2320)
+ [BG-DIAG:q24fp] center2: (0.5484, 0.7875)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.024755
+ [BG-DIAG:q24fp] Effective timeScale: 0.132026
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.041258
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 2.065861
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.330413
+ [BG-DIAG:q24fp] Rate 1st half: 0.049739 Rate 2nd half: 0.330413
+ [BG-DIAG:q24fp] Rate change: 564.29% ⚠️ ACCELERATING!
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.60
+ [BG-DIAG:q24fp] FPS: 60.2
+ [BG-DIAG:q24fp] deltaTime (s): 0.0166
+ [BG-DIAG:q24fp] cumulativeTime (s): 48.56
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 4997
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '2.8900', y: '1.3385'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000866
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ Effect params: 2 0 0.51
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 50446.00
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 49.65
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 49.6480
+ [BG-DIAG:q24fp] Time before wrap: 49.6480
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.9873 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 49.6480
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 7.8431
+ [BG-DIAG:q24fp] rotationAngle: 1.4706 rad (84.3°)
+ [BG-DIAG:q24fp] breathePhase: 2.4510
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 5.4902
+ [BG-DIAG:q24fp] blob2Phase: 4.7058
+ [BG-DIAG:q24fp] flowPhase: 9.4117
+ [BG-DIAG:q24fp] ripple1Phase: 15.6862
+ [BG-DIAG:q24fp] ripple2Phase: 14.1175
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.1594, 0.2000)
+ [BG-DIAG:q24fp] center2: (0.6987, 0.7419)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.029620
+ [BG-DIAG:q24fp] Effective timeScale: 0.157974
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.049367
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): 1.399109
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.295080
+ [BG-DIAG:q24fp] Rate 1st half: 0.187418 Rate 2nd half: 0.295080
+ [BG-DIAG:q24fp] Rate change: 57.44% ⚠️ ACCELERATING!
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 16.70
+ [BG-DIAG:q24fp] FPS: 59.9
+ [BG-DIAG:q24fp] deltaTime (s): 0.0167
+ [BG-DIAG:q24fp] cumulativeTime (s): 49.58
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 5058
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '2.8370', y: '1.3686'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000872
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
+ [BG-DIAG:q24fp] ==============================
+ [BG-DIAG:q24fp] RAW timestamp (ms): 51454.30
+ [BG-DIAG:q24fp] startTime: 798.00 (stable)
+ [BG-DIAG:q24fp] Elapsed since start (s): 50.66
+ [BG-DIAG:q24fp] Shader time (wraps at 628): 50.6563
+ [BG-DIAG:q24fp] Time before wrap: 50.6563
+ [BG-DIAG:q24fp] ------- SPEED VALUES -------
+ [BG-DIAG:q24fp] speedMod (current): 0.9567 (should be 0.333-1.0)
+ [BG-DIAG:q24fp] speedMod range seen: [0.3330, 1.0000]
+ [BG-DIAG:q24fp] ------- SHADER TIME VALUES -------
+ [BG-DIAG:q24fp] uTime (sent to shader): 50.6563
+ [BG-DIAG:q24fp] t (internal time = uTime*timeScale*speedMod): 7.7538
+ [BG-DIAG:q24fp] rotationAngle: 1.4538 rad (83.3°)
+ [BG-DIAG:q24fp] breathePhase: 2.4231
+ [BG-DIAG:q24fp] ------- ANIMATION PHASES -------
+ [BG-DIAG:q24fp] blob1Phase: 5.4277
+ [BG-DIAG:q24fp] blob2Phase: 4.6523
+ [BG-DIAG:q24fp] flowPhase: 9.3046
+ [BG-DIAG:q24fp] ripple1Phase: 15.5076
+ [BG-DIAG:q24fp] ripple2Phase: 13.9568
+ [BG-DIAG:q24fp] ------- SWIRL CENTERS -------
+ [BG-DIAG:q24fp] center1: (0.1658, 0.2002)
+ [BG-DIAG:q24fp] center2: (0.6880, 0.7456)
+ [BG-DIAG:q24fp] ------- EFFECTIVE SPEEDS -------
+ [BG-DIAG:q24fp] Effective rotation speed: 0.028700
+ [BG-DIAG:q24fp] Effective timeScale: 0.153067
+ [BG-DIAG:q24fp] Effective breatheSpeed: 0.047833
+ [BG-DIAG:q24fp] ------- T RATE ANALYSIS -------
+ [BG-DIAG:q24fp] t rate (dt/dRealTime): -0.088550
+ [BG-DIAG:q24fp] Expected avg rate: 0.106720 (timeScale * avgSpeedMod)
+ [BG-DIAG:q24fp] Avg t rate (last 10s): 0.138949
+ [BG-DIAG:q24fp] Rate 1st half: 0.280732 Rate 2nd half: 0.138949
+ [BG-DIAG:q24fp] Rate change: -50.50% (stable)
+ [BG-DIAG:q24fp] ------- FRAME TIMING -------
+ [BG-DIAG:q24fp] Frame delta (ms): 8.40
+ [BG-DIAG:q24fp] FPS: 119.0
+ [BG-DIAG:q24fp] deltaTime (s): 0.0084
+ [BG-DIAG:q24fp] cumulativeTime (s): 50.59
+ [BG-DIAG:q24fp] cumulativeTime vs elapsed drift: -0.0691
+ [BG-DIAG:q24fp] Total frames: 5141
+ [BG-DIAG:q24fp] ------- PAN VALUES -------
+ [BG-DIAG:q24fp] panOffset: {x: '2.7839', y: '1.3987'}
+ [BG-DIAG:q24fp] panDirection: {x: '-0.8700', y: '0.4931'}
+ [BG-DIAG:q24fp] panSpeed param: 0.001
+ [BG-DIAG:q24fp] Pan movement this frame: -0.000438
+ [BG-DIAG:q24fp] ------- KEY SPEED PARAMS -------
+ [BG-DIAG:q24fp] rotationSpeed: 0.03
+ [BG-DIAG:q24fp] timeScale: 0.16
+ [BG-DIAG:q24fp] breatheSpeed: 0.05
+ [BG-DIAG:q24fp] swirlSpeed: 2
