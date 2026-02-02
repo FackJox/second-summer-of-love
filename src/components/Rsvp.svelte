@@ -1,6 +1,6 @@
 <script>
     import { onMount, createEventDispatcher } from 'svelte';
-    import { config } from '$lib/config.js';
+    import { PUBLIC_SHOW_DIETARY } from '$env/static/public';
     export let form;
 
     const dispatch = createEventDispatcher();
@@ -84,7 +84,7 @@
             <label for="plusones" class:loaded={fontsLoaded}>PLUS ONE NAME</label>
             <input id="plusones" name="plusones" type="text" bind:value={formData.plusones}>
         </div>
-        {#if config.showDietary}
+        {#if PUBLIC_SHOW_DIETARY !== 'false'}
             <div class="form-field">
                 <label for="dietary" class:loaded={fontsLoaded}>DIETARY REQUIREMENTS</label>
                 <textarea id="dietary" name="dietary" bind:value={formData.dietary}></textarea>
