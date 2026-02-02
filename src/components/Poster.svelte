@@ -225,25 +225,25 @@
 	@font-face {
 		font-family: 'Horizon';
 		src: url('/fonts/horizon.c7c834b7fe209bdc0a30119a6b1d26ae.b3ebf62f8ff8ae950dea860d56c49d1b.woff2') format('woff2');
-		font-display: swap;
+		font-display: block;
 	}
 
 	@font-face {
 		font-family: 'CondensedBold';
 		src: url('/fonts/scr-nsevbd-reg.3f1bb23215a22e898f7272aa2.4e21acea96a3d8e9d18d910b961567bb.woff2') format('woff2');
-		font-display: swap;
+		font-display: block;
 	}
 
 	@font-face {
 		font-family: 'CondensedRegular';
 		src: url('/fonts/scr-nsev-reg.039ecb79bbf7e9fd5981a06a01c.28e686f1a1e6846cf246683ff0cd3181.woff2') format('woff2');
-		font-display: swap;
+		font-display: block;
 	}
 
 	@font-face {
 		font-family: 'SerifItalic';
 		src: url('/fonts/cff149ee1e9d2be50ac77bcd86769d05.woff2') format('woff2');
-		font-display: swap;
+		font-display: block;
 	}
 
 	.poster {

@@ -31,6 +31,7 @@
 	const SPIN_DECAY = 0.97; // How quickly spin decays back to normal
 	const DRAG_SENSITIVITY = 0.01; // How much drag affects spin
 	const MIN_DRAG_DISTANCE = 20; // Minimum pixels to count as a drag vs click
+	const RSVP_DELAY_MS = 1500; // Delay before showing RSVP form (let user watch the spin)
 
 	// Current rotation angle (tracked incrementally for smooth interaction)
 	let currentRotationY = 0;
@@ -122,10 +123,12 @@
 			isActivated = true;
 		}
 
-		// Trigger RSVP modal
+		// Trigger RSVP modal after delay (let user watch the spin)
 		if (!hasTriggeredRsvp) {
 			hasTriggeredRsvp = true;
-			dispatch('activated');
+			setTimeout(() => {
+				dispatch('activated');
+			}, RSVP_DELAY_MS);
 		}
 	}
 
@@ -135,7 +138,9 @@
 			// Still trigger if we were dragging
 			if (isActivated && !hasTriggeredRsvp) {
 				hasTriggeredRsvp = true;
-				dispatch('activated');
+				setTimeout(() => {
+					dispatch('activated');
+				}, RSVP_DELAY_MS);
 			}
 		}
 	}
