@@ -1,8 +1,7 @@
 <script>
     import { onMount, createEventDispatcher } from 'svelte';
+    import { config } from '$lib/config.js';
     export let form;
-
-    const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwJ2LwLcXS5SANMJFNJakHyncuXrKS7_BbEXwhrpu9VOT7U4K63wlXFXmm7Q5wijUfgZg/exec';
 
     const dispatch = createEventDispatcher();
 
@@ -32,14 +31,18 @@
         isSubmitting = true;
 
         try {
-            const response = await fetch(SHEETS_ENDPOINT, {
+            const response = await fetch('/api/rsvp', {
                 method: 'POST',
-                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(formData)
             });
+
+            if (!response.ok) {
+                const result = await response.json();
+                throw new Error(result.error || 'Failed to submit');
+            }
 
             success = true;
             dispatch('success');
@@ -81,10 +84,12 @@
             <label for="plusones" class:loaded={fontsLoaded}>PLUS ONE NAME</label>
             <input id="plusones" name="plusones" type="text" bind:value={formData.plusones}>
         </div>
-        <div class="form-field">
-            <label for="dietary" class:loaded={fontsLoaded}>DIETARY REQUIREMENTS</label>
-            <textarea id="dietary" name="dietary" bind:value={formData.dietary}></textarea>
-        </div>
+        {#if config.showDietary}
+            <div class="form-field">
+                <label for="dietary" class:loaded={fontsLoaded}>DIETARY REQUIREMENTS</label>
+                <textarea id="dietary" name="dietary" bind:value={formData.dietary}></textarea>
+            </div>
+        {/if}
         <button type="submit" class:loaded={fontsLoaded} class:submitting={isSubmitting} disabled={isSubmitting}>
             <span class="btn-text">{isSubmitting ? 'SENDING...' : 'RSVP'}</span>
             <span class="scanline-sweep"></span>
