@@ -3,6 +3,7 @@
 	import BackgroundShader from './BackgroundShader.svelte';
 	import DiscoBall from './DiscoBall.svelte';
 	import GlitchText from './GlitchText.svelte';
+	import { config } from '$lib/config.js';
 
 	let posterContainer;
 	let discoContainer;
@@ -165,7 +166,7 @@
 		<!-- WebGL text with glitch effect -->
 		{#if enableTextGlitch}
 			<div class="glitch-text-container">
-				<GlitchText effectParams={discoBallParams} />
+				<GlitchText effectParams={discoBallParams} eventTime={config.eventTime} />
 			</div>
 		{/if}
 
@@ -203,7 +204,7 @@
 				<p class="detail" class:loaded={fontsLoaded}>SATURDAY 19 SEPTEMBER</p>
 				<p class="detail" class:loaded={fontsLoaded}>FAITH IN STRANGERS</p>
 				<p class="detail" class:loaded={fontsLoaded}>MARGATE</p>
-				<p class="detail" class:loaded={fontsLoaded}>17:30PM</p>
+				<p class="detail" class:loaded={fontsLoaded}>{config.eventTime}</p>
 			</div>
 		{/if}
 
