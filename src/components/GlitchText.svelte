@@ -8,6 +8,7 @@
 
 	// Effect parameters - shared with disco ball
 	export let effectParams;
+	export let eventTime = '17:30PM';
 
 	// Font URLs (TTF format required by troika-three-text)
 	const HORIZON_FONT = '/fonts/horizon.c7c834b7fe209bdc0a30119a6b1d26ae.b3ebf62f8ff8ae950dea860d56c49d1b.ttf';
@@ -266,7 +267,7 @@
 		scene.add(detail3);
 		textObjects.push(detail3);
 
-		const detail4 = createTextMesh('17:30PM', {
+		const detail4 = createTextMesh(eventTime, {
 			font: CONDENSED_FONT,
 			fontSize: 26,
 			color: WHITE,
