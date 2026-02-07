@@ -1,8 +1,7 @@
 <script>
 	import { onMount, createEventDispatcher } from 'svelte';
 	import BackgroundShader from './BackgroundShader.svelte';
-	import DiscoBall from './DiscoBall.svelte';
-	import GlitchText from './GlitchText.svelte';
+	import PosterScene from './PosterScene.svelte';
 	import { PUBLIC_EVENT_TIME } from '$env/static/public';
 
 	let posterContainer;
@@ -163,10 +162,10 @@
 	<BackgroundShader container={posterContainer} params={shaderParams} {imageSrc} />
 
 	<div class="poster-content" style="transform: scale({scaleFactor});">
-		<!-- WebGL text with glitch effect -->
+		<!-- Combined WebGL scene: text + disco ball -->
 		{#if enableTextGlitch}
 			<div class="glitch-text-container">
-				<GlitchText effectParams={discoBallParams} eventTime={PUBLIC_EVENT_TIME || '17:30PM'} />
+				<PosterScene effectParams={discoBallParams} eventTime={PUBLIC_EVENT_TIME || '17:30PM'} {discoContainer} on:activated={handleRsvpClick} />
 			</div>
 		{/if}
 
@@ -193,9 +192,8 @@
 			<div class="text-spacer"></div>
 		{/if}
 
-		<!-- Disco ball with CRT/ASCII effect -->
+		<!-- Disco container: layout spacer + interaction target (rendered by PosterScene) -->
 		<div class="disco-container" bind:this={discoContainer}>
-			<DiscoBall effectParams={discoBallParams} on:activated={handleRsvpClick} />
 		</div>
 
 		<!-- Event details (hidden when glitch enabled - rendered in WebGL) -->
@@ -351,12 +349,18 @@
 		font-size: var(--headline-love-font-size, 89px);
 	}
 
-	/* Disco ball container */
+	/* Disco ball container - interaction target for PosterScene */
 	.disco-container {
 		flex: 1;
 		min-height: var(--disco-spacer-min-height, 320px);
 		width: 100%;
 		position: relative;
+		cursor: grab;
+		touch-action: none;
+	}
+
+	.disco-container:active {
+		cursor: grabbing;
 	}
 
 	/* Event details */
